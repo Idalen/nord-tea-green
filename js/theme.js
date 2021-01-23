@@ -1,20 +1,18 @@
 // Theme switcher
 let switcher = document.getElementById('switch_theme');
 
-localStorage.getItem('theme') === 'light' ? darkTheme() : lightTheme();
-
-switcher.onclick = () => switcher.checked ? darkTheme() : lightTheme();
+switcher.onclick = () => switcher.checked ? lightTheme() : darkTheme();
 
 function darkTheme() {
-	switcher.checked = true;
+	switcher.checked = false;
 	localStorage.setItem('theme', 'dark');
 	document.body.setAttribute('theme', 'dark');
 }
 
 function lightTheme() {
-	switcher.checked = false;
+	switcher.checked = true;
 	localStorage.setItem('theme', 'light');
-	document.body.removeAttribute('theme');
+	document.body.setAttribute('theme', 'light');
 }
 
 // Automatic theme change depending on the time of day
