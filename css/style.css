@@ -20,16 +20,16 @@
 
 	--global-font: var(--open-sans);
 
-	--background: #101112;
-	--foreground: #858585;
-	--header: #A8A8A8;
-	--card-bg: #1c1d1f;
+	--background: #2e3440;
+	--foreground: #3b4252;
+	--header: #2e3440;
+	--card-bg: #eceff4;
 
-	--weather-fg: #BDBDBD;
+	--weather-fg: #3b4252;
 	--weather-bg: var(--card-bg);
-	--weather-icon: #E0E0E0;
+	--weather-icon: #3b4252;
 	--weather-temp: var(--weather-fg);
-	--weather-description: #9E9E9E;
+	--weather-description: #3b4252;
 
 	--todo-bg: var(--card-bg);
 	--todo-fg: #a6a6a6;
