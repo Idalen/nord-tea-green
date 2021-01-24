@@ -1,0 +1,23 @@
+{
+  "name": "tea-green",
+  "version": "1.0.0",
+  "description": "![Preview](https://github.com/sadparadiseinhell/tea-green/blob/main/assets/tea-green-preview.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idalen/tea-green.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Idalen/tea-green/issues"
+  },
+  "homepage": "https://github.com/Idalen/tea-green#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
