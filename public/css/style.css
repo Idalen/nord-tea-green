@@ -44,10 +44,10 @@
 
 /* Dark theme */
 [theme="light"] {
-	--background: #fff;
-	--foreground: #7a8c70;
+	--background: #e5e9f0;
+	--foreground: #bf616a;
 	--header: #5C6657;
-	--card-bg: #c1ecac;
+	--card-bg: #a3be8c;
 
 	--weather-fg: #C5CAE9;
 	--weather-bg: #3c4b96;
@@ -56,8 +56,8 @@
 	--weather-description: #9FA8DA;
 
 	--todo-bg: #f2e69d;
-	--todo-fg: #807a53;
-	--todo-hover: #4d4932;
+	--todo-fg: #b48ead;
+	--todo-hover: #b48ead;
 	--todo-input: #b3aa74;
 	--todo-done: #ccc085;
 
